@@ -721,6 +721,7 @@ footer .paragraf {
     letter-spacing: 0.48px;
     display: block;
     margin-bottom: 4px;
+    width: 40px;
     
 }
 
@@ -730,6 +731,7 @@ footer .paragraf {
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid var(--iris, #4D5AE5);
+    padding:11px 38px;
 }
 
 .modal-form-btn {}
