@@ -791,7 +791,7 @@ footer .paragraf {
 .modal-form-privacy {
     margin-bottom: 24px;
 }
-.modal-form-privacy-input {
+.visually-hidden {
     width: 16px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
@@ -805,7 +805,7 @@ footer .paragraf {
         fill: transparent;
 
 }
-.modal-form-privacy-input:checked {
+.visually-hidden:checked {
     background-color: var(--bg-color-btn-hf);
     border: none;
     fill: var(--color-overlay-text);
