@@ -763,7 +763,7 @@ footer .paragraf {
 }
 .modal-form-input:focus {
     border-color: var(--bg-overlay-text);
-    fill: #4d5ae5;
+    fill: var(--bg-color-btn);
 }
 .modal-form-div-com{
     margin-bottom: 16px;
@@ -792,7 +792,6 @@ footer .paragraf {
     margin-bottom: 24px;
 }
 .modal-form-privacy-input {
-    visibility: hidden;
     width: 16px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
@@ -808,8 +807,8 @@ footer .paragraf {
 }
 .modal-form-privacy-input:checked {
     border: none;
-    fill: var(--color-footer-logo);
-    background-color:var(--color-heder-link-ahf);
+    fill: var(--bg-main-color);
+    background-color:var(--bg-color-btn-hf);
 
 }
 .modal-form-label-privacy {
@@ -819,9 +818,7 @@ footer .paragraf {
     color: var(--fill-icon-customer);
 
 }
-.modal-form-privacy-police {
-    color: var(--bg-overlay-text);
-}
+
 .modal-form-privacy-text {
     
 
@@ -855,5 +852,5 @@ footer .paragraf {
     border-radius: 4px;
 }
 .modal-form-privacy-a {
-    color: var(--bg-color-btn);
+    color: var(--bg-overlay-text);
 }
