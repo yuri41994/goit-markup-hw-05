@@ -704,10 +704,19 @@ footer .paragraf {
 .modal-form {
     display: block;
 }
+.modal-form-div {
+    display: block;
+    margin-bottom: 8px;
+    position: relative;
+}
 
 .modal-form-field {
     display: block;
-    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--fill-icon-customer);
+    margin-bottom: 4px;
 }
 
 .modal-form-label {
@@ -727,6 +736,7 @@ footer .paragraf {
 }
 
 .modal-form-input {
+    position: relative;
     width: 360px;
     height: 40px;
     flex-shrink: 0;
