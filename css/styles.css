@@ -806,9 +806,9 @@ footer .paragraf {
 
 }
 .modal-form-privacy-input:checked {
-    border: none;
-    fill: var(--bg-main-color);
     background-color: var(--bg-color-btn-hf);
+    border: none;
+    fill: var(--color-overlay-text);
 
 }
 .modal-form-label-privacy {
