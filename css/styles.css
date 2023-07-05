@@ -808,7 +808,7 @@ footer .paragraf {
 .modal-form-privacy-input:checked {
     border: none;
     fill: var(--bg-main-color);
-    background-color:var(--bg-color-btn-hf);
+    background-color: var(--bg-color-btn-hf);
 
 }
 .modal-form-label-privacy {
@@ -848,6 +848,7 @@ footer .paragraf {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-privacy-a {
     color: var(--bg-overlay-text);
