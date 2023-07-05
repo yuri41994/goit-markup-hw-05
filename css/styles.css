@@ -742,7 +742,7 @@ footer .paragraf {
 }
 .modal-form-icon:focus {
     color: var(--bg-overlay-text);
-    
+
 }
 .modal-form-icon-div {
     position: relative;
@@ -762,10 +762,10 @@ footer .paragraf {
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus {
-    border-color: var(--bg-overlay-text)
+    color: var(--bg-overlay-text)
 }
 
 .modal-form-btn {}
