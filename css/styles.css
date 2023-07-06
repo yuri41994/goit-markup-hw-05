@@ -479,6 +479,7 @@ footer .paragraf {
     color: var(--color-social-paragraf);
     margin-bottom: 16px;
     font-weight: 500;
+    
 }
 
 .footer-social-links-box .list {
@@ -517,6 +518,7 @@ footer .paragraf {
     transform: translate(-50%, -50%);
 }
 .footer-email {
+    margin-left: 80px;
 
 }
 
@@ -531,7 +533,7 @@ footer .paragraf {
 
 .footer-email-form {
     display: flex;
-    gap 24px;
+    gap: 24px;
     
     
 }
