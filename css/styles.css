@@ -531,11 +531,12 @@ footer .paragraf {
 
 .footer-email-form {
     display: flex;
+    gap 24px;
     
     
 }
 .footer-email-label {
-    gap 24px;
+    
 
 }
 .footer-email-label-input {
@@ -571,7 +572,7 @@ footer .paragraf {
     border: none;
     border-radius: 4px;
 }
-.footer-email.form-btn-icon {
+.footer-email-form-btn-icon {
     margin-left: 16px;
 }
 
