@@ -890,7 +890,7 @@ footer .paragraf {
         fill: transparent;
 
 }
-.modal-form-privacy-input:checked {
+.visually-hidden:checked {
     background-color: var(--bg-color-btn-hf);
     border: none;
     fill: var(--color-overlay-text);
