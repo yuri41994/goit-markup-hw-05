@@ -829,6 +829,9 @@ footer .paragraf {
     border-color: var(--bg-overlay-text);
     fill: var(--bg-color-btn);
 }
+.modal-form-input:focus + .modal-form-icon {
+    fill: var(--bg-color-btn);
+}
 .modal-form-div-com{
     margin-bottom: 16px;
 
