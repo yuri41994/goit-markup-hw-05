@@ -824,7 +824,7 @@ footer .paragraf {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-input:focus +.icon{
+.modal-form-input:focus {
     border-color: var(--bg-overlay-text);
     fill: var(--bg-color-btn);
 }
@@ -875,13 +875,13 @@ footer .paragraf {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var();
+    color: var(--fill-icon-customer);
 }
 
 .checkbox-span {
     width: 16px;
     height: 16px;
-    border: 1px solid var(--color-border-callback);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -892,8 +892,8 @@ footer .paragraf {
 }
 .chb-policy:checked+.privacy-lable .checkbox-span {
     border: none;
-    background-color: var(--color-cb-policy-hf);
-    fill: var(--color-cb-policy);
+    background-color: var(--bg-color-btn-hf);
+    fill: var(--bg-main-color);
 }
 .icon-checkbox {}
 
@@ -904,7 +904,7 @@ footer .paragraf {
     line-height: 1.33;
     letter-spacing: 0.04em;
     text-decoration-line: underline;
-    color: var(-);
+    color: var(--bg-color-btn);
 }
 
 /* Botton-container */
