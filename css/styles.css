@@ -851,63 +851,63 @@ footer .paragraf {
     border-color: var(--bg-overlay-text);
 
 }
-.modal-form-privacy {
+/* Privacy-container */
+.privacy-container {
     margin-bottom: 24px;
 }
-.modal-form-privacy-input {
-    width: 16px;
-    height: 16px;
-        border: 1px solid rgba(46, 47, 66, 0.4);
-        border-radius: 2px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        fill: transparent;
 
-}
-.modal-form-privacy-input:checked .visually-hidden:checked {
-    background-color: var(--bg-color-btn-hf);
-    border: none;
-    fill: var(--color-overlay-text);
+.chb-policy {}
 
-}
 .visually-hidden {
     position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-.modal-form-label-privacy {
+
+.privacy-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--fill-icon-customer);
-
+    color: var();
 }
 
-.modal-form-privacy-text {
+.checkbox-span {
     width: 16px;
     height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    border: 1px solid var(--color-border-callback);
     border-radius: 2px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
 }
-.modal-form-privacy-icon {
-
+.chb-policy:checked+.privacy-lable .checkbox-span {
+    border: none;
+    background-color: var(--color-cb-policy-hf);
+    fill: var(--color-cb-policy);
 }
+.icon-checkbox {}
+
+.privacy-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: var(-);
+}
+
+/* Botton-container */
 
 .modal-form-btn {
     display: block;
@@ -922,14 +922,4 @@ footer .paragraf {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-privacy-a {
-    color: var(--bg-overlay-text);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
-    text-decoration-line: underline;
 }
