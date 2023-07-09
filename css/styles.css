@@ -890,7 +890,7 @@ footer .paragraf {
     justify-content: center;
     fill: transparent;
 }
-.chb-policy:checked+.privacy-lable .checkbox-span {
+.chb-policy:checked+.privacy-label .checkbox-span {
     border: none;
     background-color: var(--bg-color-btn-hf);
     fill: var(--bg-main-color);
