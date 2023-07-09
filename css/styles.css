@@ -898,7 +898,11 @@ footer .paragraf {
     background-color: var(--bg-color-btn-hf);
     fill: var(--bg-main-color);
 }
-.icon-checkbox {}
+.icon-checkbox {
+    fill: var(--bg-color-btn-hf);
+    stroke-width: 1px;
+    stroke: var(--bg-color-btn-hf);
+}
 
 .privacy-link {
     font-style: normal;
