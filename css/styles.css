@@ -805,6 +805,7 @@ footer .paragraf {
 }
 .modal-form-icon:focus {
     color: var(--bg-overlay-text);
+    fill: var(--bg-color-btn);
 
 }
 .modal-form-icon-div {
