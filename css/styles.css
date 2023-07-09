@@ -752,7 +752,6 @@ footer .paragraf {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     margin-bottom: 16px;
-    margin-top: 72px;
     
     /* Body Medium */
     font-size: 16px;
@@ -926,4 +925,5 @@ footer .paragraf {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: auto;
 }
